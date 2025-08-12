@@ -1,0 +1,134 @@
+
+@keyframes float-slow {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+}
+
+@keyframes float-medium {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(-3deg);
+    }
+}
+
+@keyframes float-fast {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+}
+
+.animate-float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-medium {
+    animation: float-medium 4s ease-in-out infinite;
+}
+
+.animate-float-fast {
+    animation: float-fast 3s ease-in-out infinite;
+}
+
+
+@keyframes pulse-slow {
+    0%, 100% {
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}
+
+@keyframes pulse-medium {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.03);
+    }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+}
+
+.animate-pulse-medium {
+    animation: pulse-medium 3s ease-in-out infinite;
+}
+
+
+@keyframes fade-in-out {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes fade-in-out-delayed {
+    0%, 100% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes fade-in-out-slow {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.9;
+    }
+}
+
+.animate-fade-in-out {
+    animation: fade-in-out 3s ease-in-out infinite;
+}
+
+.animate-fade-in-out-delayed {
+    animation: fade-in-out-delayed 4s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+
+.animate-fade-in-out-slow {
+    animation: fade-in-out-slow 5s ease-in-out infinite;
+}
+
+
+@media (max-width: 768px) {
+    .animate-float-slow,
+    .animate-float-medium,
+    .animate-float-fast {
+        animation-duration: 3s;
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-float-slow,
+    .animate-float-medium,
+    .animate-float-fast,
+    .animate-pulse-slow,
+    .animate-pulse-medium,
+    .animate-fade-in-out,
+    .animate-fade-in-out-delayed,
+    .animate-fade-in-out-slow {
+        animation: none;
+    }
+}
