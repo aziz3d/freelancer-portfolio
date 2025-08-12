@@ -61,8 +61,8 @@ Modern, feature rich portfolio website built with Laravel 11+ and Tailwind CSS 4
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/aziz3d/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/aziz3d/freelancer-portfolio.git
+cd freelancer-portfolio
 ```
 
 2. **Install PHP dependencies**
