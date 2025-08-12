@@ -186,13 +186,6 @@ All content is manageable through the admin panel. No code changes required for:
 - **SQL Injection Prevention** - Eloquent ORM prevents SQL injection
 - **XSS Protection** - Output escaping and content sanitization
 
-## 📱 Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 🤝 Contributing
 
