@@ -170,13 +170,6 @@ All content is manageable through the admin panel. No code changes required for:
 - Services offered
 - Testimonials
 
-## 🧪 Testing
-
-Run the test suite:
-```bash
-php artisan test
-```
-
 ## 📈 Performance
 
 - **Optimized Images** - Automatic image compression and resizing
