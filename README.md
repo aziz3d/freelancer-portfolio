@@ -243,8 +243,8 @@ This portfolio website is **completely free** and open-source for personal and e
 ### 📞 Contact for Commercial Use
 For commercial licensing or custom development services, please contact:
 - **Email:** [sunrise300@gmail.com]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Website:** [Your Website]
+- **LinkedIn:**
+- **Website:**
 
 ---
 
